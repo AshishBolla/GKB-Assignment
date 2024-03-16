@@ -1,0 +1,114 @@
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#error {
+    color: red;
+    margin-top: 10px;
+}
+
+#success {
+    color: green;
+    margin-top: 10px;
+}
+
+/* Add CSS styles for the user data table */
+#userData {
+    margin-top: 20px;
+}
+
+#userTable {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#userTable th,
+#userTable td {
+    padding: 8px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+#userTable th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+#userTable tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+#userTable tbody tr:hover {
+    background-color: #f2f2f2;
+}
+
+/* Table styles */
+#userData {
+    margin-top: 20px;
+}
+
+#userTable {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+#userTable th,
+#userTable td {
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+#userTable th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+    text-align: center;
+}
+
+#userTable tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+#userTable tbody tr:hover {
+    background-color: #f2f2f2;
+}
+
+/* Delete button styles */
+.delete-button {
+    cursor: pointer;
+    color: red;
+}
+
+.delete-button:hover {
+    color: darkred;
+}

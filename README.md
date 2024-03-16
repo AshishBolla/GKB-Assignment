@@ -40,7 +40,7 @@ SQLite3
 
 #### 1. Clone the repository:
 
-*git clone https://github.com/your-username/user-management-app.git*
+*git clone https://github.com/AshishBolla/GKB-Assignment.git*
 
 #### 2. Install dependencies:
 
